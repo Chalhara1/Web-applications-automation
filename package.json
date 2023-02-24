@@ -1,0 +1,20 @@
+{
+  "name": "testcafedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demotest" : "testcafe chrome test/test.ts"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^2.3.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
+
